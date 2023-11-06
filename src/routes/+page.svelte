@@ -4,7 +4,7 @@
 </script>
 
 <!-- <Button /> -->
-<div class="mx-auto font-bold text-white text-center my-10">
+<div class="flex flex-col mx-auto font-bold text-white text-center my-10">
   <!-- Silahkan masuk melalui QR Code yang disediakan :) -->
 
   <a
