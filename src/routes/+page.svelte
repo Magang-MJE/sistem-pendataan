@@ -1,5 +1,6 @@
 <script>
   import Button from "../lib/Button.svelte";
+  import Field from "../lib/Field.svelte";
 </script>
 
 <!-- <Button /> -->
@@ -11,4 +12,6 @@
   <a href="/hari-3">(hari 3)</a>
 
   <Button>hari 1</Button>
+  <br />
+  <Field id="123" name="Nama" placeholder="isi" />
 </div>
