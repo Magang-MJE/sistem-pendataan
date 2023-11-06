@@ -5,7 +5,7 @@
 
 <button
   on:click={onclick}
-  class="bg-[#00933B] rounded-xl p-3 text-white border-b-2 border-[#006F2C] font-bold"
+  class="bg-[#00933B] rounded-xl px-4 py-2 text-white border-b-4 border-[#006F2C] font-bold"
 >
   <!-- Button -->
   <slot />
