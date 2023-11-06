@@ -9,4 +9,6 @@
   <a href="/hari-1">(hari 1)</a>
   <a href="/hari-2">(hari 2)</a>
   <a href="/hari-3">(hari 3)</a>
+
+  <Button>hari 1</Button>
 </div>
