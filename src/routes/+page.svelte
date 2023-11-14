@@ -22,4 +22,9 @@
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
     >Hari 3</a
   >
+  <a
+    href="https://forms.gle/4WzExYT9tUz2uteU6"
+    class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
+    >Pengunjung</a
+  >
 </div>
