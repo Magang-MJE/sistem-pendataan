@@ -5,15 +5,15 @@
 </script>
 
 <!-- <Button /> -->
-<div class="mx-auto font-bold text-white text-center my-10">
+<div class="flex flex-col mx-auto font-bold text-white text-center my-10">
   <!-- Silahkan masuk melalui QR Code yang disediakan :) -->
 
   <img src="/gmbrmagang.jpg" alt="logo MJE" class="mx-auto w-100 my-5" />
 
   <a
     href="/gmbrmagang.jpg"
-    class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5 mr-80"
-    >Download</a
+    class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
+    download>Download</a
   >
   <!-- <a
     href="https://forms.gle/baD6bcH9Y9rFb2Lz5"
