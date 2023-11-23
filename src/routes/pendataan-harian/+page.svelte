@@ -8,12 +8,11 @@
 <div class="flex flex-col mx-auto font-bold text-white text-center my-10">
   <!-- Silahkan masuk melalui QR Code yang disediakan :) -->
 
-  <!-- <img src="/gmbrmagang.jpg" alt="logo MJE" class="mx-auto w-100 my-5" /> -->
-  <!-- svelte-ignore a11y-missing-attribute -->
-  <iframe src="/poster rundown.pdf" width="600" height="400"></iframe>
+  <img src="/poster rundown.jpg" alt="logo MJE" class="mx-auto w-100 my-5" />
+  <!-- <iframe src="/poster rundown.pdf" width="600" height="400"></iframe> -->
 
   <a
-    href="/poster rundown.pdf"
+    href="/poster rundown.jpg"
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
     target="_blank"
     download>Download</a
