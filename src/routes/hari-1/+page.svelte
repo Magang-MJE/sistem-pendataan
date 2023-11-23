@@ -15,6 +15,13 @@
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
     download>Download</a
   >
+
+  <a
+    href="/"
+    class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
+    >Back</a
+  >
+
   <!-- <a
     href="https://forms.gle/baD6bcH9Y9rFb2Lz5"
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
