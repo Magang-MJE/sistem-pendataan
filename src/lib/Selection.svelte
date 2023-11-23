@@ -3,7 +3,7 @@
   let kondisi = " ";
   export let name = "";
   export let id = "";
-  export let placeholder = " ";
+  export const placeholder = " ";
 </script>
 
 <div class="text-left">
