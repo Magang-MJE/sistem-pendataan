@@ -18,7 +18,7 @@
 
   <a
     href="/"
-    class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
+    class="bg-sky-400 rounded-xl p-3 text-white border-b-2 border-sky-600 font-bold mt-5"
     >Back</a
   >
 
