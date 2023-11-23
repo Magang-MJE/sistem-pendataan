@@ -11,9 +11,9 @@
   <img src="/gmbrmagang.jpg" alt="logo MJE" class="mx-auto w-100 my-5" />
 
   <a
-    href="https://muhammadiyahexpo.id/"
+    href="/gmbrmagang.jpg"
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5 mr-80"
-    >Back</a
+    >Download</a
   >
   <!-- <a
     href="https://forms.gle/baD6bcH9Y9rFb2Lz5"

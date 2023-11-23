@@ -7,7 +7,7 @@
 <div class="flex flex-col mx-auto font-bold text-white text-center my-10">
   <!-- Silahkan masuk melalui QR Code yang disediakan :) -->
 
-  <!-- <a
+  <a
     href="https://forms.gle/58JJV1SG2Ae3hZpx7"
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
     >Hari 1</a
@@ -21,11 +21,11 @@
     href="https://forms.gle/rtWuohzxRbf4BhGi7"
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
     >Hari 3</a
-  > -->
-  <img src="/gmbrmagang.jpg" alt="logo MJE" class="mx-auto w-100 my-5" />
+  >
+  <!-- <img src="/gmbrmagang.jpg" alt="logo MJE" class="mx-auto w-100 my-5" /> -->
   <a
     href="/gmbrmagang.jpg"
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
-    download>Tiket Masuk Pengunjung MJE#3</a
+    >Tiket Masuk Pengunjung MJE#3</a
   >
 </div>
