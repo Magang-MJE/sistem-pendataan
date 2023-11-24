@@ -20,12 +20,16 @@
 
     tanggal = tanggal < 24 ? 24 : tanggal > 26 ? 26 : tanggal;
 
-    const jamShowButton = date.getHours();
+    const jamShowLink = date.getHours();
+    const ampm = jamShowLink >= 12 ? "PM" : "AM";
+    const jam12 = jamShowLink % 12 || 12;
+
     showLink =
       tanggal >= 24 &&
       tanggal <= 26 &&
-      jamShowButton >= 13 &&
-      jamShowButton < 16;
+      jam12 >= 1 &&
+      jam12 < 5 &&
+      ampm === "PM";
   });
 </script>
 
