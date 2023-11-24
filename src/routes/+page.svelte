@@ -1,11 +1,9 @@
 <script>
-  import Button from "../lib/Button.svelte";
-  import Field from "../lib/Field.svelte";
-
   import { onMount } from "svelte";
-  let hari;
-  let tanggal;
 
+  let showLink = false;
+  let tanggal;
+  let hari;
   const mappingTanggal = {
     24: "https://forms.gle/58JJV1SG2Ae3hZpx7",
     25: "https://forms.gle/baD6bcH9Y9rFb2Lz5",
@@ -18,10 +16,16 @@
       dateStyle: "full",
     }).format(date);
     tanggal = date.getDate();
-
     console.log(hari);
 
     tanggal = tanggal < 24 ? 24 : tanggal > 26 ? 26 : tanggal;
+
+    const jamShowButton = date.getHours();
+    showLink =
+      tanggal >= 24 &&
+      tanggal <= 26 &&
+      jamShowButton >= 13 &&
+      jamShowButton < 16;
   });
 </script>
 
@@ -29,12 +33,22 @@
   <a
     href={mappingTanggal[`${tanggal}`]}
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
-    >Form Pengunjung {tanggal} November 2023</a
   >
+    Form Pengunjung {tanggal} November 2023
+  </a>
 
   <a
     href="/pendataan-harian"
     class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
-    >Susunan Acara MJE#3</a
   >
+    Susunan Acara MJE#3
+  </a>
+
+  {#if showLink}
+    <a
+      href="https://forms.gle/8sBcryxtchLoAh2E9"
+      class="bg-[#D7A652] rounded-xl p-3 text-white border-b-2 border-[#D7A652] font-bold mt-5"
+      >Tiket Talk Show Muda Mendunia
+    </a>
+  {/if}
 </div>
